@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+}
+
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar starts */
+ #top_nav{
+    background-color: #daac00;
+    padding: 10px 8%;
+ }
+
+ .img-fluid {
+    width: 200px;
+}
+
+ 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    border: 0;
+    border-radius: 0;
+    color: #ffff;
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 10px 11px 0px #313131a3;
+}
+
+::placeholder{
+    color: #fff!important;
+}
+
+#searchbtn{
+    background-color: #00bec9;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+    padding: 0.3rem 1.3rem;
+}
+
+/* navbar end */
+
+
+/* banner starts */
+#banner{
+    background-color: #fcc302;
+    height: 100vh;
+}
+
+#banner-text{
+    margin-top: 14rem;
+}
+
+#banner-text h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+#banner-text p{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    color: #fff;
+    border: 2px solid #00bec9;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+}
+
+#banner-btn-2{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+#banner-img img{
+    width: 380px;
+    margin-top: 9rem;
+}
+
+/* banner end */
+
+
+
+/* Service starts */
+#service{
+    margin-top: 8%;
+    margin-bottom: 5%;
+   overflow-x: hidden;
+}
+
+#service-text h1{
+    font-size: 3rem;
+}
+
+#service-text p{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+#service-btn{
+    background-color: #fcc302;
+    color: #fff;
+    border: 2px solid #fcc302;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    
+}
+
+#service-img{
+    text-align: center;
+}
+
+#service-img img{
+    width: 400px;
+}
+/* service end */
+
+
+/* vacination-container starts */
+.vacination-container{
+    background-color: #fcc302;
+    padding-top: 4rem ;
+    padding-bottom: 4rem;
+}
+
+#vacination-title p{
+    font-size: 1.5rem;
+}
+
+.vacination-posts{
+    background-color: #fcc302;
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+}
+
+#vacination-content{
+    text-align: center;
+}
+
+#vacination-content h3{
+   margin-top: 2rem;
+   font-weight: 600;
+   font-size: 2rem;
+}
+
+
+#vacination-content p{
+    
+    font-size: 1.3rem;
+ }
+
+#vacination-content img{
+    width: 350px;
+    border: 5px solid #ffff;
+}
+
+
+#vacination-title h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+/* vacination-container end */
+
+
+
+/* sale dog starts */
+#buy-btn{
+    background-color: #00bec9;
+    color: #ffff;
+    font-weight: 600;
+    padding: 0.7rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+/* sale dog end */
+
+
+ /* vetcare team start */
+ .my-icon{
+    background-color: #daac00;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+ }
+
+ #vetcare-team{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+ }
+
+ #vetcare-team img{
+    width: 350px;
+ }
+
+ #vetcare-team h3{
+    margin-top: 2rem;
+    font-weight: bold;
+ }
+
+ #vetcare-team p{
+    margin-top: rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+ }
+    
+    /* vetcare team end */
+
+
+
+
+
+/* health-care starts */
+#health-care{
+    
+    background:linear-gradient(rgba(255, 230, 4, 0.805),rgba(255, 230, 4, 0.805)), url(../img/img13.png);
+    background-size: cover;
+    background-position: top center;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    
+}
+
+.health-icon{
+    font-size: 3.5rem;
+}
+/* health-end */
+
+
+/* Blog starts */
+#blog-headings{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+#blog-headings h1{
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+#blog-headings p{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+#blog h5{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.blog-img{
+    width: 360px;
+}
+
+.blog-p{
+    color: #00bec9;
+}
+
+.blog-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #00bec9;
+}
+
+#blog-article{
+    padding: 1.5rem;
+    border: 1px solid rgb(125,125,125);
+    border-top: 0;
+     
+}
+
+
+#aos-animation{
+    overflow-x: hidden;
+}
+
+ 
+/* blog end */
+
+
+
+/* footer starts */
+#footer{
+    padding-top: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    background-color: #343434;
+    color: #fff;
+}
+#footer a{
+    text-decoration: none;
+    color: #ffff;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+#form{
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+#footer-search-box{
+    padding: 0.5rem;
+    background-color: #daac00;
+    border: 0;
+    max-width: 300px;
+    position: relative;
+    left: 8px;
+
+}
+
+#footer-search-submit{
+    padding: 0.5rem 1.3rem;
+    background-color: #00bec9;
+    color: #fff;
+    border: 0;
+   
+}
+
+ 
+.social-icon{
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    
+}
+@media only screen and (max-width:1199px){
+    #banner-text h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    #banner-text h1 {
+        font-size: 3rem;
+    }
+
+    #banner-text p {
+        font-size: 1.3rem;
+    }
+
+    #banner{
+        background-color: #fcc302;
+        height: 100%;
+    }   
+
+    #service-text h1 {
+        font-size: 2.3rem;
+    }
+
+    #service-text p {
+        font-size: 1.3rem;
+    }
+
+    #service-img img {
+        width: 320px;
+    }
+
+    #vacination-content img {
+        width: 230px;
+    }
+
+    #vetcare-team img {
+        width: 230px;
+    }
+}
+ 
+
+@media only screen and (max-width:992px){
+         #searchform{
+            position: relative;
+            left: -43px;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+         }
+
+         .navbar-dark .navbar-nav .nav-link {
+            padding-left: 0rem;
+        }
+}
+
+@media only screen and (max-width:917px){
+    #banner-text h1 {
+        font-size: 2rem;
+    }
+
+    #banner-text p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:822px){
+    #banner{
+        padding-bottom: 3rem;
+    }
+
+
+}
+
+@media only screen and (max-width:767px){
+    #banner-text h1 {
+        font-size: 3rem;
+    }
+    
+    #banner-img{
+        text-align: center;
+    }
+
+    #service-text h1 {
+        font-size: 1.8rem;
+    }
+    
+
+
+    
+
+}
+
+@media only screen and (max-width:768px){
+#service-text h1 {
+    font-size: 1.8rem;
+}
+
+#service-text p {
+    font-size: 1rem;
+}
+
+#footer-search-box {
+    
+    max-width: 170px;
+    
+}
+
+#vacination-content img {
+    width: 170px;
+}
+
+#vacination-content h3 {
+    font-size: 1.5rem;
+}
+
+#vacination-content p {
+    font-size: 1.2rem;
+}
+
+#vacination-title h1 {
+    font-size: 3rem;
+   
+}
+
+#vacination-title p {
+    font-size: 1.2rem;
+}
+
+#vetcare-team img {
+    width: 170px;
+   
+}
+
+/* .team-img-top{
+    margin-top: 4rem;
+} */
+
+}
+ 
+
+@media only screen and (max-width:500px){
+    #top_nav{
+        padding: 5px 0;
+     }
+    
+    .img-fluid {
+        width: 160px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 1.1rem;
+        padding-left: 0rem;
+    }
+
+    #banner {
+        background-color: #fcc302;
+        height: 100%;
+    }
+
+    #banner-text h1 {
+        font-size: 2rem;
+    }
+
+    #banner-text p{
+        font-size: 1rem;
+    }
+
+    #banner-text {
+        margin-top: 1rem;
+    }
+
+    #banner-btn-2{
+        
+        padding: 0.5rem 0.8rem;
+        font-weight: 600;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+
+    #banner-btn-1{
+        
+        padding: 0.5rem 0.8rem;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    #banner-img{
+        text-align: center;
+    }
+
+    #banner-img img {
+        width: 250px;
+        margin-top: 7rem;
+    }
+
+    #service-img img {
+        padding-top: 2rem;
+    }
+
+    #service-text h1 {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+    
+
+
+
+    #service-btn{
+        
+        padding: 0.5rem 0.8rem;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    #vacination-content h3 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #vacination-content p {
+        font-size: 1rem;
+    }
+
+    #vacination-title h1 {
+        font-size: 2.5rem;
+    }
+
+    #vacination-title p {
+        font-size: 1rem;
+    }
+
+    .vacination-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-top: 4rem;
+    }
+
+    .team-img-top{
+        margin-top: 4rem;
+    }
+
+    #buy-btn {
+        font-weight: 500;
+        padding: 0.6rem 1.8rem;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+
+    #vacination-title h1 {
+        font-size: 2.1rem;
+    }
+
+    
+
+
+
+    .health-icon{
+        font-size: 2rem;
+    }
+
+    #health-care {
+       
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+         
+    }
+
+    .blog-img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    #blog-headings p {
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    #blog-headings h1 {
+        font-weight: bolder;
+        font-size: 3.2rem;
+    }
+    
+    #blog-headings {
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+
+
+    #footer-search-box {
+    
+        max-width: 200px;
+        
+    }
+
+    #footer {
+        padding-top: 3rem;
+        margin-top: 5rem;
+        padding-bottom: 4rem;
+        background-color: #343434;
+        color: #fff;
+        text-align: center;
+    }
+
+    .service-top{
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    #footer-form{
+        margin-top: 2rem;
+        text-align: center!important;
+    }
+
+    
+    
+
+}
+
+@media only screen and (max-width:393px){
+    #banner-text h1 {
+        font-size: 1.8rem;
+    }
+
+    #banner-text p {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+}
+
+ 
+ 
